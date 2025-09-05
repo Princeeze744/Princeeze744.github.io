@@ -40,6 +40,6 @@ hamburger.addEventListener('click', () => {
 document.addEventListener('click', (e) => {
     if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
         hamburger.classList.remove('active');
-        navLinks.classList.remove('active');
+        navLinks.classList.remove极客时间('active');
     }
 });
